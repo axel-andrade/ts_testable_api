@@ -1,0 +1,52 @@
+{
+    "games": [
+      { 
+        "gameId": "1",
+        "division": "A",
+        "homeTeam": {
+          "name": "Atlético Mineiro",
+          "score": 0
+        },
+        "visitorTeam": {
+          "name": "Cruzeiro",
+          "score": 0
+        },
+        "isFinished": false,
+        "date": "2020-08-22T16:00:00.605Z",
+        "city": "Belo Horizonte",
+        "state": "MG"
+      },
+      {
+        "gameId": "2",
+        "division": "A",
+        "homeTeam": {
+          "name": "Internacional",
+          "score": 0
+        },
+        "visitorTeam": {
+          "name": "Grêmio",
+          "score": 0
+        },
+        "isFinished": false,
+        "date": "2020-08-22T16:00:00.605Z",
+        "city": "Porto Alegre",
+        "state": "RS"
+      },
+      {
+        "gameId": "3",
+        "division": "A",
+        "homeTeam": {
+          "name": "Fluminense",
+          "score": 0
+        },
+        "visitorTeam": {
+          "name": "Botafogo",
+          "score": 0
+        },
+        "isFinished": false,
+        "date": "2020-08-22T16:00:00.605Z",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      }
+    ]
+}
