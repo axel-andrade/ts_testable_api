@@ -28,7 +28,7 @@ export interface SoccerGamesResponse {
 }
 
 /**
- * This error type is used when a request reaches out to the StormGlass API but returns an error
+ * Este tipo de erro é usado quando uma solicitação chega à API SoccerGames, mas retorna um erro
  */
 export class SoccerGamesUnexpectedResponseError extends InternalError {
   constructor(message: string) {
@@ -37,8 +37,8 @@ export class SoccerGamesUnexpectedResponseError extends InternalError {
 }
 
 /**
- * This error type is used when something breaks before the request reaches out to the StormGlass API
- * eg: Network error, or request validation error
+ * Este tipo de erro é usado quando algo quebra antes de a solicitação chegar à API SoccerGames
+ * por exemplo: erro de rede ou erro de validação de solicitação
  */
 export class ClientRequestError extends InternalError {
   constructor(message: string) {
